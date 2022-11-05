@@ -77,6 +77,7 @@ const aboutBrands = [
       margin: 0 0 12px;
       font-size: 20px;
       line-height: 1.4;
+      font-weight: 400;
     }
     &__description {
       line-height: 1.5;
