@@ -6,7 +6,7 @@
         link="#"
         color-title="#FFF"
         color-description="#FFF"
-        color-link="#FFF"
+        color-link="secondary"
         background="var(--black)"
     />
     <img src="/img/room.jpg" alt="room">

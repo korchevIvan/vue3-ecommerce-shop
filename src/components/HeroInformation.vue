@@ -18,18 +18,15 @@
         {{description}}
       </span>
     </div>
-    <router-link
-        :to="link"
-        class="hero-info-link"
-        v-if="link"
-        :style="{color: colorLink}"
-    >
+    <Button :color="colorLink" type="link" to="/">
       View collection
-    </router-link>
+    </Button>
   </div>
 </template>
 
 <script setup>
+import Button from '@/components/UI/Button.vue'
+
 const props = defineProps({
   title: {
     type: String,
@@ -53,7 +50,7 @@ const props = defineProps({
   },
   colorLink: {
     type: String,
-    default: '#2A254B'
+    default: 'secondary'
   },
   background: {
     type: String,
@@ -74,7 +71,7 @@ const props = defineProps({
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    align-items: flex-start;
     &__title {
       font-family:var(--clash);
       font-weight: 400;
@@ -85,18 +82,6 @@ const props = defineProps({
     &__description {
       font-size: 18px;
       line-height: 1.5;
-    }
-    &-link {
-      text-decoration: none;
-      width: 170px;
-      height: 56px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: rgba(249, 249, 249, 0.15);
-      &:hover {
-        background: rgba(249, 249, 249, 0.30);
-      }
     }
   }
 }
