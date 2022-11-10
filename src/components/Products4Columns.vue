@@ -15,7 +15,7 @@
 
 <script setup>
 import {ref} from "vue"
-import Product from '/src/components/Product.vue'
+import Product from '@/components/Product.vue'
 
 const products = ref([
   {
@@ -62,7 +62,7 @@ const products = ref([
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #2A254B;
+    color: var(--black);
     text-decoration: none;
     &:hover {
       text-decoration-skip-ink: none;

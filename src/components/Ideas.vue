@@ -7,14 +7,14 @@
         color-title="#FFF"
         color-description="#FFF"
         color-link="#FFF"
-        background="#2A254B"
+        background="var(--black)"
     />
     <img src="/img/room.jpg" alt="room">
   </div>
 </template>
 
 <script setup>
-import HeroInformation from './HeroInformation.vue'
+import HeroInformation from '@/components/HeroInformation.vue'
 </script>
 
 <style lang="scss" scoped>

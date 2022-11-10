@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import HeroInformation from '/src/components/HeroInformation.vue'
+import HeroInformation from '@/components/HeroInformation.vue'
 </script>
 
 <style lang="scss" scoped>

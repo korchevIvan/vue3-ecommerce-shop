@@ -76,7 +76,7 @@ const props = defineProps({
     justify-content: space-between;
 
     &__title {
-      font-family: 'Clash Display', sans-serif;
+      font-family:var(--clash);
       font-weight: 400;
       font-size: 32px;
       line-height: 1.4;

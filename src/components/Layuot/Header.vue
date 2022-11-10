@@ -95,10 +95,10 @@ const menu = [
   }
 
   &-logo {
-    color: #22202E;
+    color: var(--black);
     font-size: 24px;
     text-decoration: none;
-    font-family: 'Clash Display', sans-serif;
+    font-family:var(--clash);
     text-align: center;
 
     &:hover {
@@ -113,7 +113,7 @@ const menu = [
     align-items: center;
     &__link {
       margin: 0 22px;
-      color: #726E8D;
+      color: var(--gray);
       text-decoration: none;
       text-decoration-skip-ink: none;
       &:hover {
