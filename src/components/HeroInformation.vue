@@ -18,14 +18,14 @@
         {{description}}
       </span>
     </div>
-    <a
-        :href="link"
+    <router-link
+        :to="link"
         class="hero-info-link"
         v-if="link"
         :style="{color: colorLink}"
     >
       View collection
-    </a>
+    </router-link>
   </div>
 </template>
 

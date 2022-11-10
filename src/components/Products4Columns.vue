@@ -9,7 +9,7 @@
           :price="product.price"
       />
     </div>
-    <a href="#" class="products-link">View collection</a>
+    <router-link to="#" class="products-link">View collection</router-link>
   </div>
 </template>
 
