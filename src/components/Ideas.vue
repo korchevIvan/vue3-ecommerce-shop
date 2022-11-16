@@ -7,7 +7,7 @@
         color-title="#FFF"
         color-description="#FFF"
         color-link="secondary"
-        background="var(--black)"
+        background="var(--primary)"
     />
     <img src="/img/room.jpg" alt="room">
   </div>

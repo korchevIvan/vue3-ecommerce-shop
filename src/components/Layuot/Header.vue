@@ -95,7 +95,7 @@ const menu = [
   }
 
   &-logo {
-    color: var(--black);
+    color: var(--primary);
     font-size: 24px;
     text-decoration: none;
     font-family:var(--clash);

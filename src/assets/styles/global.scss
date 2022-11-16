@@ -7,7 +7,7 @@
 
   --gray: #726E8D;
   --lightGray: #5b5676;
-  --black: #2A254B;
+  --primary: #2A254B;
 }
 
 * {
@@ -30,4 +30,12 @@ img {
 .container {
   max-width: 1440px;
   margin: auto;
+}
+
+.input-text {
+  height: 56px;
+  padding: 0 32px;
+  font-size: 16px;
+  border: none;
+  outline: none;
 }

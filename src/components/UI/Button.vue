@@ -3,7 +3,8 @@
       :class="['btn', {
           'btn--primary': color === 'primary',
           'btn--secondary': color === 'secondary',
-          'btn--light-gray': color === 'light-gray'
+          'btn--light-gray': color === 'light-gray',
+          'btn--white': color === 'white'
       }]"
       :style="{backgroundColor: background}"
       v-if="type === 'button'"
@@ -48,7 +49,7 @@ const props = defineProps({
 <style lang="scss" scoped>
 
 .btn {
-  background: var(--black);
+  background: var(--primary);
   color: #FFF;
   padding: 0 32px;
   display: inline-flex;
@@ -76,7 +77,7 @@ const props = defineProps({
   //}
 
   &--primary {
-    background: var(--black);
+    background: var(--primary);
     color: #FFF;
   }
 
@@ -88,6 +89,10 @@ const props = defineProps({
   &--light-gray {
     background: #F9F9F9;
     color: #2A254B;
+  }
+  &--white {
+    background: #FFF;
+    color: var(--primary);
   }
 }
 
