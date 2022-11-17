@@ -49,7 +49,7 @@ const props = defineProps({
 <style lang="scss" scoped>
 
 .btn {
-  background: var(--primary);
+  background: var(--dark-primary);
   color: #FFF;
   padding: 0 32px;
   display: inline-flex;
@@ -77,7 +77,7 @@ const props = defineProps({
   //}
 
   &--primary {
-    background: var(--primary);
+    background: var(--dark-primary);
     color: #FFF;
   }
 
@@ -87,12 +87,12 @@ const props = defineProps({
   }
 
   &--light-gray {
-    background: #F9F9F9;
+    background: var(--light-gray);
     color: #2A254B;
   }
   &--white {
     background: #FFF;
-    color: var(--primary);
+    color: var(--dark-primary);
   }
 }
 

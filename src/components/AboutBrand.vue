@@ -57,7 +57,7 @@ const aboutBrands = [
   &__title {
     text-align: center;
     font-size: 24px;
-    color: var(--primary);
+    color: var(--dark-primary);
     margin: 0 0 84px 0;
     font-weight: 400;
     font-family:var(--clash);
@@ -68,7 +68,7 @@ const aboutBrands = [
     justify-content: space-between;
   }
   &-element {
-    color: var(--primary);
+    color: var(--dark-primary);
     &__img {
       display: block;
       margin-bottom: 12px;

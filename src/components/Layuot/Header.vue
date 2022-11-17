@@ -95,7 +95,7 @@ const menu = [
   }
 
   &-logo {
-    color: var(--primary);
+    color: var(--dark-primary);
     font-size: 24px;
     text-decoration: none;
     font-family:var(--clash);
@@ -113,7 +113,7 @@ const menu = [
     align-items: center;
     &__link {
       margin: 0 22px;
-      color: var(--gray);
+      color: #726E8D;
       text-decoration: none;
       text-decoration-skip-ink: none;
       &:hover {

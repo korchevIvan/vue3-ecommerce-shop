@@ -79,7 +79,7 @@ import SubscribeForm from '@/components/SubscribeForm.vue'
 
 <style lang="scss" scoped>
 .footer {
-  background: var(--primary);
+  background: var(--dark-primary);
   color: #FFF;
 
   &-content {
@@ -91,7 +91,7 @@ import SubscribeForm from '@/components/SubscribeForm.vue'
     grid-template-columns: 540px 1fr;
     column-gap: 110px;
     padding-bottom: 48px;
-    border-bottom: 1px solid #4E4D93;
+    border-bottom: 1px solid var(--primary);
   }
   &-menu {
     display: grid;
